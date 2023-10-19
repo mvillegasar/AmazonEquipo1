@@ -10,5 +10,5 @@ const pages = {
 }
 
 Given(/^el usuario crea una cuenta de amazon$/, async () => {
-    await LoginPage.open()
+    await pages.open()
 })
